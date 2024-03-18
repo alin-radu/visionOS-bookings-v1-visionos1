@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180928D32BA872BB0061C1C8 /* EarthVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180928D22BA872BB0061C1C8 /* EarthVolume.swift */; };
+		180928D52BA876A50061C1C8 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 180928D42BA876A50061C1C8 /* Earth.usdz */; };
+		180928DB2BA8B1570061C1C8 /* BookingsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180928DA2BA8B1570061C1C8 /* BookingsContentView.swift */; };
+		18E3D7A62BA717D0000DDB3B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 18E3D7A52BA717D0000DDB3B /* RealityKitContent */; };
+		18E3D7A82BA717D0000DDB3B /* BookingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7A72BA717D0000DDB3B /* BookingsApp.swift */; };
+		18E3D7AC2BA717D1000DDB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E3D7AB2BA717D1000DDB3B /* Assets.xcassets */; };
+		18E3D7AF2BA717D1000DDB3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E3D7AE2BA717D1000DDB3B /* Preview Assets.xcassets */; };
+		18E3D7BF2BA718C4000DDB3B /* airports-SML.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E3D7BE2BA718C4000DDB3B /* airports-SML.json */; };
+		18E3D7C42BA718E6000DDB3B /*  AirportMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7C02BA718E6000DDB3B /*  AirportMapView.swift */; };
+		18E3D7C52BA718E6000DDB3B /* AirportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7C12BA718E6000DDB3B /* AirportsView.swift */; };
+		18E3D7C62BA718E6000DDB3B /* AirportDetailsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7C22BA718E6000DDB3B /* AirportDetailsWindow.swift */; };
+		18E3D7C72BA718E6000DDB3B /* AirportDetailsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7C32BA718E6000DDB3B /* AirportDetailsContentView.swift */; };
+		18E3D7C92BA718F1000DDB3B /* AirportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7C82BA718F1000DDB3B /* AirportsViewModel.swift */; };
+		18E3D7CE2BA718FA000DDB3B /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7CA2BA718FA000DDB3B /* Airports.swift */; };
+		18E3D7CF2BA718FA000DDB3B /* SceneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7CB2BA718FA000DDB3B /* SceneType.swift */; };
+		18E3D7D02BA718FA000DDB3B /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7CC2BA718FA000DDB3B /* Airport.swift */; };
+		18E3D7D12BA718FA000DDB3B /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7CD2BA718FA000DDB3B /* Continent.swift */; };
+		18E3D7D32BA71904000DDB3B /* MapCameraExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7D22BA71904000DDB3B /* MapCameraExtension.swift */; };
+		18E3D7D52BA7190B000DDB3B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7D42BA7190B000DDB3B /* Bundle-Decodable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180928D22BA872BB0061C1C8 /* EarthVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthVolume.swift; sourceTree = "<group>"; };
+		180928D42BA876A50061C1C8 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		180928DA2BA8B1570061C1C8 /* BookingsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsContentView.swift; sourceTree = "<group>"; };
+		18E3D7A02BA717D0000DDB3B /* Bookings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3D7A42BA717D0000DDB3B /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		18E3D7A72BA717D0000DDB3B /* BookingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsApp.swift; sourceTree = "<group>"; };
+		18E3D7AB2BA717D1000DDB3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E3D7AE2BA717D1000DDB3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18E3D7B02BA717D1000DDB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3D7BE2BA718C4000DDB3B /* airports-SML.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "airports-SML.json"; sourceTree = "<group>"; };
+		18E3D7C02BA718E6000DDB3B /*  AirportMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " AirportMapView.swift"; sourceTree = "<group>"; };
+		18E3D7C12BA718E6000DDB3B /* AirportsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportsView.swift; sourceTree = "<group>"; };
+		18E3D7C22BA718E6000DDB3B /* AirportDetailsWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDetailsWindow.swift; sourceTree = "<group>"; };
+		18E3D7C32BA718E6000DDB3B /* AirportDetailsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDetailsContentView.swift; sourceTree = "<group>"; };
+		18E3D7C82BA718F1000DDB3B /* AirportsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportsViewModel.swift; sourceTree = "<group>"; };
+		18E3D7CA2BA718FA000DDB3B /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		18E3D7CB2BA718FA000DDB3B /* SceneType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneType.swift; sourceTree = "<group>"; };
+		18E3D7CC2BA718FA000DDB3B /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		18E3D7CD2BA718FA000DDB3B /* Continent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
+		18E3D7D22BA71904000DDB3B /* MapCameraExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCameraExtension.swift; sourceTree = "<group>"; };
+		18E3D7D42BA7190B000DDB3B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E3D79D2BA717D0000DDB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3D7A62BA717D0000DDB3B /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180928D12BA872920061C1C8 /* Volumes */ = {
+			isa = PBXGroup;
+			children = (
+				180928D22BA872BB0061C1C8 /* EarthVolume.swift */,
+			);
+			path = Volumes;
+			sourceTree = "<group>";
+		};
+		180928D82BA8B1200061C1C8 /* Airports */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7C12BA718E6000DDB3B /* AirportsView.swift */,
+				18E3D7C32BA718E6000DDB3B /* AirportDetailsContentView.swift */,
+				18E3D7C22BA718E6000DDB3B /* AirportDetailsWindow.swift */,
+				18E3D7C02BA718E6000DDB3B /*  AirportMapView.swift */,
+			);
+			path = Airports;
+			sourceTree = "<group>";
+		};
+		180928D92BA8B1380061C1C8 /* Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				180928DA2BA8B1570061C1C8 /* BookingsContentView.swift */,
+			);
+			path = Bookings;
+			sourceTree = "<group>";
+		};
+		18E3D7972BA717D0000DDB3B = {
+			isa = PBXGroup;
+			children = (
+				18E3D7A22BA717D0000DDB3B /* Bookings */,
+				18E3D7A32BA717D0000DDB3B /* Packages */,
+				18E3D7A12BA717D0000DDB3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E3D7A12BA717D0000DDB3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7A02BA717D0000DDB3B /* Bookings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E3D7A22BA717D0000DDB3B /* Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7A72BA717D0000DDB3B /* BookingsApp.swift */,
+				18E3D7B62BA71820000DDB3B /* Views */,
+				180928D12BA872920061C1C8 /* Volumes */,
+				18E3D7B72BA7182D000DDB3B /* View-Models */,
+				18E3D7B82BA7183D000DDB3B /* Models */,
+				18E3D7B92BA71848000DDB3B /* Extensions */,
+				18E3D7BA2BA71851000DDB3B /* Utils */,
+				18E3D7BB2BA71858000DDB3B /* mockup-data-files */,
+				18E3D7BD2BA71873000DDB3B /* before-trash */,
+				18E3D7BC2BA71868000DDB3B /* dummy-views */,
+				18E3D7AB2BA717D1000DDB3B /* Assets.xcassets */,
+				18E3D7B02BA717D1000DDB3B /* Info.plist */,
+				18E3D7AD2BA717D1000DDB3B /* Preview Content */,
+			);
+			path = Bookings;
+			sourceTree = "<group>";
+		};
+		18E3D7A32BA717D0000DDB3B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7A42BA717D0000DDB3B /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		18E3D7AD2BA717D1000DDB3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7AE2BA717D1000DDB3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18E3D7B62BA71820000DDB3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180928D82BA8B1200061C1C8 /* Airports */,
+				180928D92BA8B1380061C1C8 /* Bookings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18E3D7B72BA7182D000DDB3B /* View-Models */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7C82BA718F1000DDB3B /* AirportsViewModel.swift */,
+			);
+			path = "View-Models";
+			sourceTree = "<group>";
+		};
+		18E3D7B82BA7183D000DDB3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7CC2BA718FA000DDB3B /* Airport.swift */,
+				18E3D7CA2BA718FA000DDB3B /* Airports.swift */,
+				18E3D7CD2BA718FA000DDB3B /* Continent.swift */,
+				18E3D7CB2BA718FA000DDB3B /* SceneType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18E3D7B92BA71848000DDB3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7D22BA71904000DDB3B /* MapCameraExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18E3D7BA2BA71851000DDB3B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7D42BA7190B000DDB3B /* Bundle-Decodable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18E3D7BB2BA71858000DDB3B /* mockup-data-files */ = {
+			isa = PBXGroup;
+			children = (
+				18E3D7BE2BA718C4000DDB3B /* airports-SML.json */,
+				180928D42BA876A50061C1C8 /* Earth.usdz */,
+			);
+			path = "mockup-data-files";
+			sourceTree = "<group>";
+		};
+		18E3D7BC2BA71868000DDB3B /* dummy-views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "dummy-views";
+			sourceTree = "<group>";
+		};
+		18E3D7BD2BA71873000DDB3B /* before-trash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "before-trash";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E3D79F2BA717D0000DDB3B /* Bookings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3D7B32BA717D1000DDB3B /* Build configuration list for PBXNativeTarget "Bookings" */;
+			buildPhases = (
+				18E3D79C2BA717D0000DDB3B /* Sources */,
+				18E3D79D2BA717D0000DDB3B /* Frameworks */,
+				18E3D79E2BA717D0000DDB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookings;
+			packageProductDependencies = (
+				18E3D7A52BA717D0000DDB3B /* RealityKitContent */,
+			);
+			productName = Bookings;
+			productReference = 18E3D7A02BA717D0000DDB3B /* Bookings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E3D7982BA717D0000DDB3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					18E3D79F2BA717D0000DDB3B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 18E3D79B2BA717D0000DDB3B /* Build configuration list for PBXProject "Bookings" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E3D7972BA717D0000DDB3B;
+			productRefGroup = 18E3D7A12BA717D0000DDB3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E3D79F2BA717D0000DDB3B /* Bookings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E3D79E2BA717D0000DDB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3D7AF2BA717D1000DDB3B /* Preview Assets.xcassets in Resources */,
+				18E3D7AC2BA717D1000DDB3B /* Assets.xcassets in Resources */,
+				180928D52BA876A50061C1C8 /* Earth.usdz in Resources */,
+				18E3D7BF2BA718C4000DDB3B /* airports-SML.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E3D79C2BA717D0000DDB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180928D32BA872BB0061C1C8 /* EarthVolume.swift in Sources */,
+				18E3D7D02BA718FA000DDB3B /* Airport.swift in Sources */,
+				18E3D7CE2BA718FA000DDB3B /* Airports.swift in Sources */,
+				18E3D7D32BA71904000DDB3B /* MapCameraExtension.swift in Sources */,
+				18E3D7C92BA718F1000DDB3B /* AirportsViewModel.swift in Sources */,
+				180928DB2BA8B1570061C1C8 /* BookingsContentView.swift in Sources */,
+				18E3D7CF2BA718FA000DDB3B /* SceneType.swift in Sources */,
+				18E3D7C72BA718E6000DDB3B /* AirportDetailsContentView.swift in Sources */,
+				18E3D7C62BA718E6000DDB3B /* AirportDetailsWindow.swift in Sources */,
+				18E3D7D12BA718FA000DDB3B /* Continent.swift in Sources */,
+				18E3D7C42BA718E6000DDB3B /*  AirportMapView.swift in Sources */,
+				18E3D7C52BA718E6000DDB3B /* AirportsView.swift in Sources */,
+				18E3D7A82BA717D0000DDB3B /* BookingsApp.swift in Sources */,
+				18E3D7D52BA7190B000DDB3B /* Bundle-Decodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18E3D7B12BA717D1000DDB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		18E3D7B22BA717D1000DDB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		18E3D7B42BA717D1000DDB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookings/Preview Content\"";
+				DEVELOPMENT_TEAM = VAW596AAWY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.Bookings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		18E3D7B52BA717D1000DDB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookings/Preview Content\"";
+				DEVELOPMENT_TEAM = VAW596AAWY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.Bookings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E3D79B2BA717D0000DDB3B /* Build configuration list for PBXProject "Bookings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3D7B12BA717D1000DDB3B /* Debug */,
+				18E3D7B22BA717D1000DDB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3D7B32BA717D1000DDB3B /* Build configuration list for PBXNativeTarget "Bookings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3D7B42BA717D1000DDB3B /* Debug */,
+				18E3D7B52BA717D1000DDB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18E3D7A52BA717D0000DDB3B /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18E3D7982BA717D0000DDB3B /* Project object */;
+}
