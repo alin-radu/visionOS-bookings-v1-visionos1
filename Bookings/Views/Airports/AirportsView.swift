@@ -84,8 +84,6 @@ extension AirportsView {
 
 // MARK: COMPONENTS
 
-// MARK: -
-
 // MARK: ToolbarContent
 
 struct ToolBarTop: ToolbarContent {

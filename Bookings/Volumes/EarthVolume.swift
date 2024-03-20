@@ -9,7 +9,7 @@ struct TopAirports {
     let airports: Airports = Airports()
 
     var selectedAirports: [Airport] {
-        let LA_GUARDIA_AIRPORT_USA:Airport = airports.getAirportById(airportId: 3643)
+        let LA_GUARDIA_AIRPORT_USA: Airport = airports.getAirportById(airportId: 3643)
         let DALY_RIVER_AIRPORT_AUSTRALIA = airports.getAirportById(airportId: 3878)
         let SIBIU_INTERBATIONAL_AIRPORT_ROMANIA = airports.getAirportById(airportId: 4483)
 
@@ -92,29 +92,29 @@ struct EarthVolume: View {
     }
 
     // Function to convert CLLocationCoordinate2D to a position on the sphere
-    
+
     // v2
     func positionOnSphere(for coordinate: CLLocationCoordinate2D, radius: Float) -> SIMD3<Float> {
         let latRad = Float(coordinate.latitude) * .pi / 180.0
         let lonRad = Float(coordinate.longitude) * .pi / 180.0
-        
+
         let x = radius * cos(latRad) * cos(lonRad)
         let y = radius * sin(latRad)
         let z = radius * cos(latRad) * sin(lonRad)
-        
+
         return SIMD3<Float>(x, y, z)
     }
-    
+
     // v1
     // func positionOnSphere(for coordinate: CLLocationCoordinate2D, radius: Float) -> SIMD3<Float> {
     //     let latRad = Float(coordinate.latitude) * .pi / 180.0
     //     let lonRad = Float(coordinate.longitude) * .pi / 180.0
-    // 
+    //
     //     let x = radius * cos(latRad) * cos(lonRad)
     //     let y = radius * cos(latRad) * sin(lonRad)
-    // 
+    //
     //     let z = radius * sin(latRad)
-    // 
+    //
     //     return SIMD3<Float>(x, y, z)
     // }
 }
