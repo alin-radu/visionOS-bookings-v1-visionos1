@@ -29,4 +29,10 @@ class Airports {
             }
         }
     }
+    
+    func getAirportById(airportId: Airport.ID?) -> Airport {
+        allAirports.filter { airport in
+            airport.id == airportId
+        }[0]
+    }
 }

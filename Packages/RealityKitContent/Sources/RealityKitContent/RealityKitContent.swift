@@ -19,3 +19,4 @@ public func entity(named name: String) async -> Entity? {
         fatalError("Failed to load \(name): \(error)")
     }
 }
+ 

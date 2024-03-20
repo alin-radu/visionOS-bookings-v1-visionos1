@@ -31,6 +31,10 @@ struct Airport: Codable, Equatable, Identifiable, Hashable {
         return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
 
+    var coordinate3D: SIMD3<Float> {
+        SIMD3<Float>(x: Float(coordinate.latitude), y: Float(coordinate.longitude), z: 0.0)
+    }
+
     var continentFullName: String {
         Continent.getContinentName(for: continent)
     }

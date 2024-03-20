@@ -33,9 +33,7 @@
     "objectMetadataList" : [
       [
         "0AA2EB02-7462-41C9-8B2A-4EB9782E417A",
-        "Root",
-        "Earth",
-        "geom"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -45,14 +43,6 @@
         "0AA2EB02-7462-41C9-8B2A-4EB9782E417A",
         "Root",
         "Earth"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "0AA2EB02-7462-41C9-8B2A-4EB9782E417A",
-        "Root"
       ],
       {
         "isExpanded" : true,
@@ -68,6 +58,18 @@
   "03E02005-EFA6-48D6-8A76-05B2822A74E9" : {
     "objectMetadataList" : [
 
+    ]
+  },
+  "7B9F9D6A-11E7-4026-9A0B-A2585B8564CC" : {
+    "objectMetadataList" : [
+      [
+        "7B9F9D6A-11E7-4026-9A0B-A2585B8564CC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
     ]
   },
   "26DBAE76-5DD8-47B6-A085-1B4ADA111097" : {

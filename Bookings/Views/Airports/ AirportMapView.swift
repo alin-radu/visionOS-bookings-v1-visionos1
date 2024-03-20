@@ -59,10 +59,10 @@ struct AiportMapView: View {
         .clipShape(.rect(cornerRadius: 10))
         .onChange(of: airport) {
             print("---> AiportMapView | onChange")
-                position = .camera(MapCamera.getMapCameraPosition(coordinate: airport.coordinate, cameraPosition: .standard))
+            position = .camera(MapCamera.getMapCameraPosition(coordinate: airport.coordinate, cameraPosition: .standard))
         }
         .onChange(of: selectedTag) {
-            print("test ------------>")
+            print("---> AiportMapView | onChange | selectedTag ------------>")
         }
     }
 }

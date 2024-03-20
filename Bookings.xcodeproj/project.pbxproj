@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		180928D32BA872BB0061C1C8 /* EarthVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180928D22BA872BB0061C1C8 /* EarthVolume.swift */; };
-		180928D52BA876A50061C1C8 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 180928D42BA876A50061C1C8 /* Earth.usdz */; };
 		180928DB2BA8B1570061C1C8 /* BookingsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180928DA2BA8B1570061C1C8 /* BookingsContentView.swift */; };
 		18E3D7A62BA717D0000DDB3B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 18E3D7A52BA717D0000DDB3B /* RealityKitContent */; };
 		18E3D7A82BA717D0000DDB3B /* BookingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D7A72BA717D0000DDB3B /* BookingsApp.swift */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		180928D22BA872BB0061C1C8 /* EarthVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthVolume.swift; sourceTree = "<group>"; };
-		180928D42BA876A50061C1C8 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
 		180928DA2BA8B1570061C1C8 /* BookingsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsContentView.swift; sourceTree = "<group>"; };
 		18E3D7A02BA717D0000DDB3B /* Bookings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E3D7A42BA717D0000DDB3B /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 			isa = PBXGroup;
 			children = (
 				18E3D7BE2BA718C4000DDB3B /* airports-SML.json */,
-				180928D42BA876A50061C1C8 /* Earth.usdz */,
 			);
 			path = "mockup-data-files";
 			sourceTree = "<group>";
@@ -274,7 +271,6 @@
 			files = (
 				18E3D7AF2BA717D1000DDB3B /* Preview Assets.xcassets in Resources */,
 				18E3D7AC2BA717D1000DDB3B /* Assets.xcassets in Resources */,
-				180928D52BA876A50061C1C8 /* Earth.usdz in Resources */,
 				18E3D7BF2BA718C4000DDB3B /* airports-SML.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

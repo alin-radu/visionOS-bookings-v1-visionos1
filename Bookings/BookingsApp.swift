@@ -39,5 +39,6 @@ struct Bookings_poc_visionos1App: App {
             EarthVolume()
         }
         .windowStyle(.volumetric)
+        .defaultSize(width: 1000, height: 1000, depth: 1000)
     }
 }

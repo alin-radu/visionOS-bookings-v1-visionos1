@@ -27,7 +27,6 @@ struct AirportsView: View {
                 )
             }
             .ornament(
-                visibility: .visible,
                 attachmentAnchor: .scene(.init(x: 1.040, y: 0.5)),
                 contentAlignment: .center) {
                     EarthVolumeButtom(openWindow: openWindow)
@@ -83,7 +82,7 @@ extension AirportsView {
     }
 }
 
-// MARK: COMPONENTs
+// MARK: COMPONENTS
 
 // MARK: -
 
@@ -178,7 +177,7 @@ struct AirportsListItem: View {
                 .padding(.bottom, -10)
 
                 Button {
-                    print("open in new window: \(airport.name)")
+                    print("---> AirportsListItem | openWindow: \(airport.name)")
                     openWindow(value: airport.id)
                 } label: {
                     Image(systemName: "rectangle.portrait.on.rectangle.portrait")
@@ -191,8 +190,8 @@ struct AirportsListItem: View {
         .padding(.leading, 5)
         .padding(.vertical, 5)
         .frame(maxWidth: /*@START_MENU_TOKEN@*/ .infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
-        .background(.ultraThinMaterial)
-        .clipShape(.rect(cornerRadius: 10))
+        .background(.ultraThinMaterial, in: .rect(cornerRadius: 10))
+        // .clipShape(.rect(cornerRadius: 10))
         .padding(.vertical, 10)
     }
 }
